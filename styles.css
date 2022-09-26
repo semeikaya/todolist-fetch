@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(162, 255, 255);
+}
+.main {
+    margin: auto;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+.inputbutton {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 10px;
+}
+.input1 {
+    border: 1px solid rgb(80, 143, 231);
+    border-radius: 10px 10px;
+    width: 70%;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.button1 {
+    font-size: 20px;
+    width: 20%;
+    background-color: rgb(80, 143, 231);
+    color: white;
+    border: solid rgb(80, 143, 231);
+    border-radius: 5px 5px;
+}
+.list {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.marker {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: rgb(82, 128, 214);
+    list-style-type: none;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 15px 10px 30px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.header1 {
+    margin: 0px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Gilroy";
+}
+.deleteBtn {
+    font-size: 20px;
+    border-radius: 50%;
+    border: solid rgb(235, 66, 66);
+    background-color: rgb(235, 66, 66);
+    width: 30px;
+    height: 30px;
+}
+
